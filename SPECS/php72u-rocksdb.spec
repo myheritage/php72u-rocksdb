@@ -1,6 +1,6 @@
 #%{?scl:%scl_package rocksdb}
 %global pkg_name rocksdb
-%global php_base php72u
+%global php_base %{_php_base:php72u}
 %global ini_name  40-%{pkg_name}.ini
 
 Summary: PHP 7 RocksDB bindings
